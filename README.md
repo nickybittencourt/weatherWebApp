@@ -1,0 +1,1 @@
+Weather web app using Weatherstack api and Mapbox api

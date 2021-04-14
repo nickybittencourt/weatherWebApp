@@ -1,0 +1,49 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.content {
+
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.content h1 {
+
+    padding-bottom: 10vh;
+}
+
+.content button {
+    border-radius: 25px;
+    width: 40px;
+}
+
+.content input {
+    border-radius: 25px;
+}
+
+.content form {
+    margin: 0 auto;
+    width: 30vw;
+}
+
+#message-div {
+
+    margin-top: 40px;
+}
+
+.portrait {
+
+    width: 160px;
+    padding-top: 10px;
+    border-radius: 50%;
+}

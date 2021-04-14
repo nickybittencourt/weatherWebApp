@@ -14,7 +14,7 @@ searchForm.addEventListener('submit', (e) => {
 
     fetch(url).then((res) => {
 
-        res.json().then(({ error, location, forecast }) => {
+        res.json().then(({ error, location, forecast}) => {
 
             if (error) {
 
@@ -23,7 +23,7 @@ searchForm.addEventListener('submit', (e) => {
             } else {
 
                 messageOne.textContent = location
-                messageTwo.innerHTML = `${forecast.description}.<br>It is ${forecast.temperature}ºC. Feels like ${forecast.feelsLike}ºC`
+                messageTwo.innerHTML = `${forecast.description}<br>It is ${forecast.temperature}ºC. Feels like ${forecast.feelsLike}ºC <br>${forecast.humidity}% humidity`
             }
         })
     })
